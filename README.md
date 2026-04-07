@@ -1,16 +1,38 @@
-# React + Vite
+# Agua Bissu - Admin Panel
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este es el panel administrativo para la gestión de flota y clientes de **Agua Bissu**.
 
-Currently, two official plugins are available:
+## 🚀 Inicio Rápido
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+1. **Instalación**:
+   ```bash
+   npm install
+   ```
 
-## React Compiler
+2. **Desarrollo**:
+   ```bash
+   npm run dev
+   ```
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+3. **Producción**:
+   ```bash
+   npm run build
+   ```
 
-## Expanding the ESLint configuration
+## 📘 Documentación para Desarrolladores
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Si eres un desarrollador nuevo en el proyecto, por favor lee la **[Documentación Técnica](file:///c:/Users/PC/OneDrive/Desktop/aguaBissu/DOCUMENTACION_TECNICA.md)** para entender:
+- La arquitectura del proyecto.
+- Cómo funciona la simulación de datos en tiempo real.
+- Cómo expandir el panel con nuevas funcionalidades.
+
+## 🛠️ Tecnologías Principales
+
+- **React** (State management, Hooks).
+- **Vite** (Build tool).
+- **Lucide-React** (Iconos).
+- **CSS Vanilla** (Estilos con variables).
+
+---
+
+Desarrollado con ❤️ para Agua Bissu.
